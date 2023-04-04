@@ -1,0 +1,20 @@
+{
+  "name": "ssh-buildtest",
+  "version": "1.0.0",
+  "description": "Test project and assignment",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "Chika Kirana Syafruddin",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "dependencies": {
+    "express": "latest",
+    "cors": "latest",
+    "dotenv": "latest"
+  }
+}
